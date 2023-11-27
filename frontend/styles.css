@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+} 
+
+main {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+table {
+  margin: 50px auto;
+  color: gray;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+
+th, td {
+  padding: 20px;
+}
+
+#name-input {
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#add-name-btn {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  color: gray;
+  background-color: white;
+  border-radius: 15px;
+  }
